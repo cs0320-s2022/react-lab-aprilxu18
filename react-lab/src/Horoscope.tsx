@@ -57,7 +57,7 @@ function Horoscope() {
     return (
         <div>
             <h1 className="Horoscope-heading">Horoscopes</h1>
-            <TextBox label={"Sun Sign"} changeHandler={setSun} />
+            <TextBox label={"Sun Sign"} changeHandler={setSun}/>
             <TextBox label={"Moon Sign"} changeHandler={setMoon}/>
             <TextBox label={"Rising Sign"} changeHandler={setRising}/>
             <AwesomeButton type="primary" onPress={requestHoroscope}>Submit</AwesomeButton>

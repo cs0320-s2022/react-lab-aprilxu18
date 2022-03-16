@@ -6,7 +6,6 @@ import './App.css';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import axios from "axios";
-// import { AnimatedTitle } from 'titles'
 
 interface HoroscopeRequest {
     sun: string;
